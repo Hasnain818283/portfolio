@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Hasnain | Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Muhammad <span>Hasnain</span></div>
+        <i class="fas fa-bars menu-toggle"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h3>Hello, I'm</h3>
+            <h1>Muhammad Hasnain</h1>
+            <h2>I'm a <span class="typing"></span></h2>
+            <p>
+                Passionate Computer Systems Engineering student specializing in Web Development,
+                UI/UX Design, Internet of Things, and modern software solutions.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="Muhammad_Hasnain_CV_Modern.pdf" class="btn secondary" download>Download CV</a>
+            </div>
+
+            <div class="social">
+                <a href="https://www.linkedin.com/notifications/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Hasnain818283?tab=repositories"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="port.jpeg" alt="Muhammad Hasnain">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="title">About Me</h2>
+        <div class="about">
+            <div class="about-image">
+                <img src="port.jpeg" alt="Muhammad Hasnain">
+            </div>
+            <div class="about-content">
+                <h3>Who Am I?</h3>
+                <p>
+                    I am Muhammad Hasnain, a Computer Systems Engineering student passionate about
+                    creating responsive websites, modern UI/UX designs, and IoT-based applications.
+                </p>
+                <p>
+                    I enjoy learning new technologies and building projects that solve real-world problems.
+                    My goal is to become a Full Stack Developer while continuing my journey in software engineering and IoT.
+                </p>
+                <ul>
+                    <li><strong>Name:</strong> Muhammad Hasnain</li>
+                    <li><strong>Degree:</strong> BS Computer Systems Engineering</li>
+                    <li><strong>Country:</strong> Pakistan</li>
+                    <li><strong>Email:</strong> mhasnain818283@email.com</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="title">My Skills</h2>
+        <div class="skills">
+            <div class="card"><i class="fab fa-html5"></i><h3>HTML5</h3></div>
+            <div class="card"><i class="fab fa-css3-alt"></i><h3>CSS3</h3></div>
+            <div class="card"><i class="fab fa-js"></i><h3>JavaScript</h3></div>
+            <div class="card"><i class="fab fa-bootstrap"></i><h3>Bootstrap</h3></div>
+            <div class="card"><i class="fab fa-php"></i><h3>PHP</h3></div>
+            <div class="card"><i class="fas fa-database"></i><h3>MySQL</h3></div>
+            <div class="card"><i class="fab fa-figma"></i><h3>Figma</h3></div>
+            <div class="card"><i class="fas fa-microchip"></i><h3>IoT</h3></div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="title">Featured Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="port.jpeg" alt="Portfolio project preview">
+                <h3>Personal Portfolio</h3>
+                <p>A modern one-page portfolio built with HTML, CSS, and JavaScript.</p>
+                <div class="tech"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                <div class="buttons"><a href="#">Live Demo</a><a href="#">Code</a></div>
+            </div>
+            <div class="project">
+                <img src="port.jpeg" alt="Dashboard project preview">
+                <h3>Smart Dashboard</h3>
+                <p>A responsive dashboard concept for monitoring devices and data.</p>
+                <div class="tech"><span>Bootstrap</span><span>PHP</span><span>MySQL</span></div>
+                <div class="buttons"><a href="#">Live Demo</a><a href="#">Code</a></div>
+            </div>
+            <div class="project">
+                <img src="port.jpeg" alt="IoT project preview">
+                <h3>IoT Automation</h3>
+                <p>An IoT solution focused on connected devices and automation workflows.</p>
+                <div class="tech"><span>IoT</span><span>JS</span><span>UI/UX</span></div>
+                <div class="buttons"><a href="#">Live Demo</a><a href="#">Code</a></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="title">Contact Me</h2>
+        <div class="contact-box">
+            <div class="contact-info">
+                <h3>Let's build something great</h3>
+                <p>I'm available for freelance projects, internships, and collaboration opportunities.</p>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> mhasnain818283@email.com</li>
+                    <li><i class="fas fa-phone"></i> +92 3141516703</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Pakistan</li>
+                </ul>
+            </div>
+
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" rows="6" placeholder="Write your message..." required></textarea>
+                <button type="submit">Send Message</button>
+                <p id="formMessage" class="form-message"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Muhammad Hasnain. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
